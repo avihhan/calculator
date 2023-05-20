@@ -1,0 +1,24 @@
+nav {
+    background-color: grey;
+    position: relative;
+}
+
+nav a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav h1 {
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav a:hover {
+    background-color: white;
+    color: grey;
+}
